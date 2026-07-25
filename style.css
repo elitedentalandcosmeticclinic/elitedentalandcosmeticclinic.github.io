@@ -40,9 +40,14 @@ body{
 }
 
 .logo span{
-    color:#FFD700;
-    font-size:22px;
+    color:#ffffff;
+    font-size:24px;
     font-weight:700;
+    text-shadow:2px 2px 6px #000;
+}
+.logo p{
+    color:#ffffff
+    text-shadow:2px 2px 6px #000;
 }
 
 .navbar ul{
