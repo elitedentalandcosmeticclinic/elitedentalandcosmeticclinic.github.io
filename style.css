@@ -601,6 +601,20 @@ nav{
     background:rgba(0,0,0,.55);
     z-index:1;
 }
+.logo-text h2{
+    color:#FFD700;
+    font-size:28px;
+    margin:0;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.logo-text p{
+    color:#ffffff;
+    font-size:14px;
+    margin:2px 0 0;
+}
+
 
 .hero-content{
     position:relative;
