@@ -606,6 +606,105 @@ nav{
     background:rgba(0,0,0,.55);
     z-index:1;
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width:768px){
+
+.navbar{
+    padding:15px 20px;
+    flex-wrap:wrap;
+}
+
+.logo img{
+    width:45px;
+}
+
+.logo h2{
+    font-size:20px;
+}
+
+.logo p{
+    font-size:12px;
+}
+
+#nav-links{
+    width:100%;
+    display:none;
+    flex-direction:column;
+    background:#002b5c;
+    margin-top:15px;
+}
+
+#nav-links.active{
+    display:flex;
+}
+
+#nav-links li{
+    text-align:center;
+    margin:15px 0;
+}
+
+.menu-toggle{
+    display:block;
+    color:white;
+    font-size:28px;
+    cursor:pointer;
+}
+
+.hero-content h1{
+    font-size:38px;
+}
+
+.hero-content h2{
+    font-size:26px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.hero-btn{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.about{
+    flex-direction:column;
+}
+
+.about img{
+    width:100%;
+}
+
+.service-grid,
+.gallery-grid,
+.review-grid,
+.contact-container,
+.footer-container{
+    grid-template-columns:1fr !important;
+    flex-direction:column;
+}
+
+.counter{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.contact iframe{
+    height:300px;
+}
+
+}
+
+@media (min-width:769px){
+
+.menu-toggle{
+    display:none;
+}
+
+}
 
 .hero-content{
     position:relative;
