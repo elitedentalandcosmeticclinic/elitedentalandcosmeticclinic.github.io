@@ -96,7 +96,6 @@ console.log("Script Loaded");
 const contactForm = document.getElementById("contact-form");
 
 console.log(contactForm);
-const contactForm = document.getElementById("contact-form");
 
 if (contactForm) {
 
