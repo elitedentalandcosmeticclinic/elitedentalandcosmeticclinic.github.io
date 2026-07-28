@@ -88,3 +88,38 @@ setInterval(()=>{
     showSlide(currentSlide);
 
 },4000);
+// =========================
+// CONTACT FORM - EMAILJS
+// =========================
+
+const contactForm = document.getElementById("contact-form");
+
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
+        emailjs.sendForm(
+            "service_m5xrvdc",
+            "template_ll405ec",
+            this
+        )
+        .then(function() {
+
+            alert("✅ Thank you! Your appointment request has been sent successfully.");
+
+            contactForm.reset();
+
+        })
+        .catch(function(error) {
+
+            alert("❌ Something went wrong. Please try again.");
+
+            console.log(error);
+
+        });
+
+    });
+
+}
