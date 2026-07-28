@@ -37,22 +37,22 @@ body{
 }
 
 .logo img{
-    width:55px;
-    height:55px;
+    width:60px;
+    height:60px;
     object-fit:contain;
 }
 
 .logo h2{
     color:#ffffff;
-    font-size:22px;
+    font-size:28px;
     font-weight:700;
-    line-height:1.1;
     margin:0;
+    line-height:1.2;
 }
 
 .logo p{
     color:#FFD700;
-    font-size:13px;
+    font-size:15px;
     margin:0;
 }
 .navbar ul{
