@@ -343,9 +343,9 @@ WhatsApp Now
 
 </div>
 
-<div class="contact-form">
-
 <form>
+
+<form id="contact-form">
 
 <input type="text" placeholder="Full Name" required>
 
@@ -447,7 +447,13 @@ Life Republic, Punawale, Pune
     <i class="fas fa-arrow-up"></i>
 </button>
 
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("y9oS85spzc1VdT7lo");
+</script>
+
+<script src="script.js"></script>   
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
