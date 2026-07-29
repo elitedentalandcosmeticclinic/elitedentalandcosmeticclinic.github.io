@@ -966,3 +966,19 @@ z-index:999;
 box-shadow:0 8px 20px rgba(0,0,0,.3);
 
 }
+html,
+body{
+    overflow-x: hidden;
+}
+
+.hero,
+.hero-content,
+.container{
+    width:100%;
+    max-width:100%;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
