@@ -120,9 +120,10 @@ if (contactForm) {
         })
         .catch(function(error) {
 
-            alert("❌ Something went wrong. Please try again.");
+           console.log("ERROR:", error);
 
-            console.log(error);
+    alert(JSON.stringify(error));
+
 
         });
 
