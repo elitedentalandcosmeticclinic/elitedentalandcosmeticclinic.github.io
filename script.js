@@ -130,3 +130,15 @@ if (contactForm) {
     });
 
 }
+window.addEventListener("load", function () {
+    const callBtn = document.querySelector(".call-float");
+
+    if (callBtn) {
+        const rect = callBtn.getBoundingClientRect();
+        console.log("Call Button Position:", rect);
+
+        if (rect.right > window.innerWidth) {
+            callBtn.style.right = "15px";
+        }
+    }
+});
