@@ -103,6 +103,9 @@ if (contactForm) {
 
         e.preventDefault();
 
+        alert("Submit Clicked");
+        console.log("Submit Clicked");
+
         emailjs.sendForm(
             "service_m5xrvdc",
             "template_ll405ec",
