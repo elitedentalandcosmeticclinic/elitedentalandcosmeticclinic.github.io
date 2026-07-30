@@ -986,3 +986,26 @@ img{
     max-width:100%;
     height:auto;
 }
+/* ===== GOOGLE REVIEW SECTION ===== */
+
+.rating-box{
+    background:#ffffff;
+    max-width:600px;
+    margin:0 auto 50px;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.rating-box h1{
+    font-size:50px;
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.rating-box p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:25px;
+}
