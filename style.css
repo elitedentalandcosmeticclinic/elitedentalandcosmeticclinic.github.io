@@ -989,10 +989,10 @@ img{
 /* ===== GOOGLE REVIEW SECTION ===== */
 
 .rating-box{
-    background:#ffffff;
+    background:#f8fbff;
     max-width:600px;
     margin:0 auto 50px;
-    padding:35px;
+    padding:80px 8%;
     border-radius:20px;
     text-align:center;
     box-shadow:0 10px 30px rgba(0,0,0,.1);
@@ -1007,5 +1007,5 @@ img{
 .rating-box p{
     font-size:18px;
     color:#555;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
