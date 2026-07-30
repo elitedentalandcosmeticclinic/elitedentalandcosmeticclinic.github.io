@@ -273,44 +273,99 @@ nav{
     box-shadow:0 20px 40px rgba(0,0,0,.25);
 }/* ===== REVIEWS ===== */
 
+/* ===========================
+   PATIENT REVIEW SECTION
+=========================== */
+
 .reviews{
-    background:#f8fbff;
-    padding:80px 8%;
+    background:#f5f8fc;
+    padding:90px 8%;
 }
 
 .review-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
     gap:30px;
+    margin-top:50px;
 }
 
 .review-card{
     background:#fff;
-    padding:30px;
     border-radius:20px;
+    padding:40px 30px;
     text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
     transition:.3s;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    min-height:420px;
 }
 
 .review-card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
-.stars{
+.review-card .stars{
+    font-size:36px;
     color:#FFD700;
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-.review-card p{
-    line-height:28px;
+    letter-spacing:3px;
     margin-bottom:20px;
 }
 
 .review-card h4{
-    color:#002b5c;
+    font-size:28px;
+    color:#0A2E5C;
+    font-weight:700;
+    margin:20px 0;
 }
+
+.review-card p{
+    font-size:19px;
+    line-height:1.8;
+    color:#555;
+    flex:1;
+    margin-bottom:25px;
+}
+
+.review-card .btn{
+    display:inline-block;
+    margin:auto;
+    padding:15px 35px;
+    background:#FFD700;
+    color:#0A2E5C;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.review-card .btn:hover{
+    background:#0A2E5C;
+    color:#fff;
+}
+
+.stars{
+    color:#FFD700;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+@media(max-width:768px){
+
+    .review-grid{
+        grid-template-columns:1fr;
+    }
+
+    .review-card{
+        min-height:auto;
+    }
+
+}
+
 /* ===== CONTACT ===== */
 
 .contact{
@@ -1014,44 +1069,4 @@ img{
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
     gap:30px;
     margin-top:40px;
-}
-
-.review-card{
-    background:#fff;
-    border-radius:20px;
-    padding:40px 30px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-
-    min-height:420px;      
-}
-
-.review-card .stars{
-    font-size:34px;
-    color:#FFD700;
-    margin-bottom:20px;
-}
-
-.review-card p{
-    font-size:21px;
-    line-height:1.7;
-    color:#444;
-    flex:1;
-}
-
-.review-card h4{
-    font-size:26px;
-    color:#0A2E5C;
-    margin:25px 0;
-    font-weight:700;
-}
-
-.review-card .btn{
-    margin:20px auto 0;
-    width:260px;
-    text-align:center;
 }
