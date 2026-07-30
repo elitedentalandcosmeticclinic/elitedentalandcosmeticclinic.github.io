@@ -1070,3 +1070,32 @@ img{
     gap:30px;
     margin-top:40px;
 }
+/* FAQ */
+
+.faq{
+    background:#f8f9fc;
+    padding:80px 8%;
+}
+
+.faq-box{
+    max-width:900px;
+    margin:auto;
+}
+
+.faq-box h3{
+    background:#0A2E5C;
+    color:#fff;
+    padding:18px 20px;
+    margin-top:20px;
+    border-radius:10px 10px 0 0;
+}
+
+.faq-box p{
+    background:#fff;
+    padding:20px;
+    margin:0;
+    border:1px solid #ddd;
+    border-top:none;
+    border-radius:0 0 10px 10px;
+    line-height:1.8;
+}
