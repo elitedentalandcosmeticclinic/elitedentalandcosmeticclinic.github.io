@@ -1154,3 +1154,27 @@ img{
     background:#FFD700;
     color:#002b5c;
 }
+/* TREATMENTS */
+
+.treatments{
+    background:#f8fbff;
+    padding:80px 8%;
+}
+
+.treatment-box{
+    background:#fff;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.treatment-box h3{
+    color:#002b5c;
+    margin-bottom:15px;
+}
+
+.treatment-box p{
+    color:#555;
+    line-height:30px;
+}
