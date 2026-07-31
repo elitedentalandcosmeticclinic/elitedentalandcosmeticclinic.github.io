@@ -1202,3 +1202,44 @@ img{
     line-height:30px;
     font-size:17px;
 }
+/* WHY PATIENTS TRUST US */
+
+.trust-section{
+    padding:80px 8%;
+    background:#f8fbff;
+}
+
+.trust-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.trust-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.trust-card:hover{
+    transform:translateY(-8px);
+}
+
+.trust-card i{
+    font-size:45px;
+    color:#0A2E5C;
+    margin-bottom:20px;
+}
+
+.trust-card h3{
+    color:#002b5c;
+    margin-bottom:15px;
+}
+
+.trust-card p{
+    color:#555;
+    line-height:28px;
+}
