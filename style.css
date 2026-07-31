@@ -1118,3 +1118,39 @@ img{
 .why-text strong{
     color:#002b5c;
 }
+/* AREAS WE SERVE */
+
+.areas{
+    background:#ffffff;
+    padding:80px 8%;
+    text-align:center;
+}
+
+.areas-text{
+    max-width:900px;
+    margin:20px auto 40px;
+    font-size:18px;
+    color:#555;
+    line-height:30px;
+}
+
+.areas-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.areas-grid span{
+    background:#0A2E5C;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.areas-grid span:hover{
+    background:#FFD700;
+    color:#002b5c;
+}
